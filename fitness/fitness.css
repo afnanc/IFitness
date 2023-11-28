@@ -1,0 +1,120 @@
+.dropdown-button {
+	display: block;
+	width: 100%;
+	min-width: 160px;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.dropdown {
+	position: relative;
+	display: block;
+	width: fit-content;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+td:nth-child(2),
+th:nth-child(2),
+td:nth-child(3),
+th:nth-child(3) {
+	width: 80px;
+}
+
+.body {
+	background-color: white;
+}
+
+.left-aligned-container {
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+.tables-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.exercise-table {
+	width: 100%;
+	max-width: 50%;
+	display: none;
+	text-align: center;
+}
+
+.exercise-table2 {
+	width: 100%;
+	text-align: center;
+	min-width: 1000px;
+}
+
+.food-table {
+	width: 100%;
+	max-width: 50%;
+	display: none;
+	text-align: center;
+}
+.food-table table th:first-child {
+	font-weight: bold;
+}
+.food-table table td:nth-child(2),
+.food-table table th:nth-child(2) {
+	width: 80%; /* Your desired width */
+}
+
+.food-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.food-dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.food-dropdown-content a:hover {
+	background-color: #ddd;
+}
