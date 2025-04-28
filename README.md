@@ -1,1 +1,2 @@
-
+●	IFitness is a fitness application utilizing XAMPP which is a cross platform web server solution stack package
+●	Features include: Tracking your gym personal records using a database, Showing fitness progress over the course of time, Send reminders to users about going to the gym, Provide recommended routines according to what the user desires (eg. fat loss, muscle gain), Food plans based on the users dietary restrictions, Secure login for users, Integrated BMI calculator
